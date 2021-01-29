@@ -13,3 +13,5 @@ INSTRUCITONS:
 - Just play first the video and click the script and you'll get the information
 
 ![image](https://i.imgur.com/oUf7HSB.png)
+
+<b> This is for educational purpose only.</b>
