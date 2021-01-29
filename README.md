@@ -1,4 +1,4 @@
-# viu-m3u8-script-parser
+# viu-m3u8-parser
 Parse and save m3u8 from viu.com
 v1.1
 
