@@ -31,15 +31,13 @@
     var episode = `${epCurrent} of ${epTotal}`;
     var currentDuration = details.stream.duration;
     var originalDuration = details.current_product.time_duration;
-    var email;
+    
+    var email, url, m3u8Url, resolution;
+    
     try { email = user_data.username; } catch { email = "Email not found"; }
 
-    var url;
     GetStreamUrl();
     function GetStreamUrl() { url = details.stream.url; }
-    
-    var m3u8Url;
-    var resolution;
     //initial / default
     resolution = "1080p";
     m3u8Url = url.s1080p;
